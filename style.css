@@ -1,8 +1,8 @@
 :root {
     font-size: 62.5%; /* 1rem = 16px */
 
-    --color-primary: hsl(235, 35%, 19%);
-    --color-secondary: hsl(358, 78%, 69%); 
+    --color-primary:black;
+    --color-secondary: rgb(0, 129, 112); 
     --color-font: hsla(0, 0%, 100%, 0.902);
 
     --color-shadow: hsl(235, 36%, 35%);
@@ -39,7 +39,10 @@ section {
     height: 100%; 
 }
     
-    
+   /* .time p{
+align-items: center;
+
+    } */
 .container {
     width: min(42.5rem, 100%);
     margin-inline: auto;

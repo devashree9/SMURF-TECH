@@ -1,0 +1,229 @@
+*{
+    background-color:black;
+    font-size:16px ;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color:rgb(0, 129, 112); 
+     overflow-x: hidden;
+     /* overflow-y: hidden; */
+    
+ }
+
+ .colo{
+    color:rgb(0, 129, 112);
+}
+/* .main_box{
+    height: 100vh;
+    width: 60vw; */
+
+.menu{
+    color:rgb(0, 129, 112) ;
+}
+a{
+    color:white; 
+}
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transform: all 0.3s linear
+}
+.bx {
+    font-size: 40px;
+}
+.sidebar_menu{
+    position: fixed;
+    left:-350px;  
+   height: 100vh;
+   width: 300px;
+   background-color: rgba(255, 255, 255, 0.1);
+   box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+   transition: all 0.2s linear; 
+   color: limegreen;
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 50px;
+    box-shadow:0 2px 4px rgba(255, 255, 255, 0.5) ;
+    height: 60px;
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px; 
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.sidebar_menu .menu{
+    color: black; 
+     position: absolute;
+    width: 100%;
+    top: 80px;
+
+}
+.sidebar_menu .logo a{
+    font-size: 40px;
+}
+.sidebar_menu .btn_two{
+    color: grey;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 265px;
+    opacity: 3;
+    cursor: pointer;
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding:12px 20px  ;
+
+}
+.sidebar_menu .menu i{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.sidebar_menu .sidebar_menu i{
+    padding-right: 8px;
+
+}
+.sidebar_menu .social_media{
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 15%;
+    bottom: 50px;
+
+}
+
+.bx-exit{
+    font-size: 35;
+}
+.sidebar_menu .social_media i{
+    padding: 0 5px;
+}
+#check{
+    display: none;
+    font-size: 60px;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.btn_two i:hover i{
+    font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~.btn_one i{
+    opacity: 0;
+
+}
+#check:checked ~ .sidebar_menu .btn_one i{
+opacity: 1;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 90px;
+    color:whitesmoke;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+ color:whitesmoke;
+   position: relative;  
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 229, 212);
+    font-size: 17px;
+}  
+
+.boxhai {
+    height: 100vh;
+    /* background-color: brown; */
+    margin-left: 310px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: transparent; */
+    overflow-y: hidden;
+}
+  
+.box1 {
+  height: 500px;
+   width: 100%;
+   background-color: bisque;
+   background-image: url(img3.jpg);
+   font-size: 50px;
+   background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover; 
+   border-radius: 20px;
+    border: 2px solid rgb(8, 114, 91); 
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: black;
+    
+  }
+
+.box3{
+    height: 500px;
+    width: 500px;
+    /* background-color: blueviolet; */
+    background-image: url(monthly.png);
+    background-size: cover;
+    display: flex;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 2px solid rgb(8, 114, 91);
+    margin-bottom: 15px; 
+    margin-left: -525px;
+}  
+.box4{ height: 500px;
+    width: 500px;
+    background-image: url(dailyhrs.png);
+    background-size: cover;
+    justify-content: top;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 2px solid rgb(8, 114, 91);
+    margin-left: 500px;
+    margin-top: -284px;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+
+

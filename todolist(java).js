@@ -10,7 +10,7 @@ input.addEventListener('keypress',function(e){
 
 function addItem(e){
     const item_value = input.value;
-    //console.log(item_value);
+    console.log(item_value);
     const item= document.createElement('div');
     item.classList.add('item');
 
